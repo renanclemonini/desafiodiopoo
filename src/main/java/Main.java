@@ -8,11 +8,6 @@ public class Main {
         Conteudo curso2 = new Curso("Curso de PHP", "texto descrição",4);
         Conteudo mentoria1 = new Mentoria("Mentoria em JAVA","descrição da mentoria em JAVA", LocalDate.now());
 
-
-        /*System.out.println(curso1);
-        System.out.println(curso2);
-        System.out.println(mentoria1);*/
-
         Bootcamp bootcamp = new Bootcamp();
         bootcamp.setNome("Java Developer");
         bootcamp.setDescricao("Descrição do bootcamp Java Developer");
@@ -30,10 +25,10 @@ public class Main {
         System.out.println("Conteudos inscritos Dev " + devMary.getNome() + ": \n"+ devMary.getConteudosInscritos()+"\n");
         System.out.println("Conteudos Concluidos Dev " + devMary.getNome() + ": \n"+ devMary.getConteudosConcluidos() + "\n XP: " + devMary.calcularTotalXp() +"\n");
 
-        /*Dev devRenan = new Dev();
+        Dev devRenan = new Dev();
         devRenan.setNome("Renan");
         devRenan.inscreverBootcamp(bootcamp);
-        System.out.println("Conteudos inscritos Dev " + devRenan.getNome() + ": \n" +  devRenan.getConteudosInscritos()+"\n");*/
+        System.out.println("Conteudos inscritos Dev " + devRenan.getNome() + ": \n" +  devRenan.getConteudosInscritos()+"\n");
 
 
 
